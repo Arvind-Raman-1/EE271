@@ -1,0 +1,10 @@
+module fullAdder (A,B, cin, sum , out);
+	
+	input logic A,B,cin;
+	output logic sum, count;
+	
+	
+	assign sum = A ^ B ^ cin;
+	assign count = A&B | cin & (A^B);
+	
+endmodule 

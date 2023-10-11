@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 10",
+		"os_version" : "10.0"
+	},
+	"error" : {
+		"executable" : "quartus_sta",
+		"comment" : "not_applicable",
+		"error_message" : "oterm != nullptr",
+		"source_file" : "/quartus/tsm/tdb/tdb_cdb_link_helper.h",
+		"line" : "70",
+		"stack_trace" : "\t0x7ffbe36cbb68: TSM_TDB + 0x8bb68 (tdb_get_oterm_from_tdb_cdb_link + 0xa4)\n\t0x7ffbe3690022: TSM_TDB + 0x50022 (?initialize_tdb_node_pointer_to_atom_oterm@TDB_NETLIST@@QEAAXPEAVCDB_ATOM_NETLIST@@@Z + 0x1ca)\n\t0x7ffbe369f5e1: TSM_TDB + 0x5f5e1 (?post_process_after_pdb_read@TDB_MANAGER@@AEAAXXZ + 0x175)\n\t0x7ffbe367562c: TSM_TDB + 0x3562c (TDB_MANAGER::read_tdb_netlist_from_disk + 0x23874)\n\t0x7ffbd6801c05: TSM_STA + 0x31c05 (sta_create_timing_netlist + 0x5fd)\n\t 0x5c6361e2: tcl86 + 0x161e2 (TclNRRunCallbacks + 0x62)\n\t 0x5c637a65: tcl86 + 0x17a65 (TclEvalEx + 0xa65)\n\t 0x5c6c6f8b: tcl86 + 0xa6f8b (Tcl_FSEvalFileEx + 0x22b)\n\t 0x5c6c5646: tcl86 + 0xa5646 (Tcl_EvalFile + 0x36)\n\t0x7ffbec8d2606: comp_qexe + 0x12606 (?qexe_evaluate_tcl_script@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z + 0x376)\n\t0x7ffbec8d1864: comp_qexe + 0x11864 (qexe_do_tcl + 0x334)\n\t0x7ffbec8d6755: comp_qexe + 0x16755 (?qexe_run_tcl_option@@YA_NPEAVQEXE_FRAMEWORK@@PEBDPEAV?$list@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@_N@Z + 0x585)\n\t0x7ffbe1c680c3: comp_qcu + 0x380c3 (?qcu_run_tcl_option@@YA_NPEAVQCU_FRAMEWORK@@PEBDPEAV?$list@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@_N@Z + 0x1003)\n\t0x7ffbec8d60aa: comp_qexe + 0x160aa (qexe_run + 0x39a)\n\t0x7ffbec8d6e51: comp_qexe + 0x16e51 (?qexe_standard_main@@YAHPEAVQEXE_FRAMEWORK@@PEAPEBUQEXE_OPTION_DEFINITION@@HPEAPEBD@Z + 0xc1)\n\t0x7ff6baf1dbae: quartus_sta + 0xdbae (?qsta_main@@YAHHPEAPEBD@Z + 0x6e)\n\t0x7ffc0d022d68: CCL_MSG + 0x12d68 (?msg_main_thread@@YAPEAXPEAX@Z + 0x18)\n\t0x7ffc0d02454e: CCL_MSG + 0x1454e (?msg_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x6e)\n\t0x7ffc0d125b00: ccl_mem + 0x15b00 (?mem_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x70)\n\t0x7ffc0d022631: CCL_MSG + 0x12631 (?msg_exe_main@@YAHHPEAPEBDP6AHH0@Z@Z + 0xa1)\n\t0x7ff6baf1e2f2: quartus_sta + 0xe2f2 (__tmainCRTStartup + 0x10e)\n\t0x7ffc1cf97343: KERNEL32 + 0x17343 (BaseThreadInitThunk + 0x13)\n\t0x7ffc1e7426b0: ntdll + 0x526b0 (RtlUserThreadStart + 0x20)\n",
+		"subsystem" : "TDB"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "17.0.0",
+		"build" : "595",
+		"edition" : "Lite Edition"
+	}
+}

@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dZ:/Desktop/lab1a/simulation/modelsim
+vfullAdder
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1697065839
+!i10b 1
+!s100 V6TS1DASZa81VUTd5Gl>=3
+IJ3U=:TW:FQmG@W]>^5W560
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 fullAdder_sv_unit
+S1
+R0
+Z4 w1696644179
+Z5 8Z:/Desktop/lab1a/fullAdder.sv
+Z6 FZ:/Desktop/lab1a/fullAdder.sv
+L0 1
+Z7 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z8 !s108 1697065833.000000
+Z9 !s107 Z:/Desktop/lab1a/fullAdder.sv|
+Z10 !s90 -reportprogress|300|-sv|-work|work|+incdir+Z:/Desktop/lab1a|Z:/Desktop/lab1a/fullAdder.sv|
+!i113 1
+Z11 o-sv -work work
+Z12 !s92 -sv -work work +incdir+Z:/Desktop/lab1a
+Z13 tCvgOpt 0
+nfull@adder
+vfullAdder4
+R1
+!s110 1697065849
+!i10b 1
+!s100 1IcUHYj1]iTbRMcYEUlBW1
+IH8cA`;]SB@72KUT`RMmVi2
+R2
+!s105 fullAdder4_sv_unit
+S1
+R0
+w1697065624
+8Z:/Desktop/lab1a/fullAdder4.sv
+FZ:/Desktop/lab1a/fullAdder4.sv
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1697065845.000000
+!s107 Z:/Desktop/lab1a/fullAdder4.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+Z:/Desktop/lab1a|Z:/Desktop/lab1a/fullAdder4.sv|
+!i113 1
+R11
+R12
+R13
+nfull@adder4
+vfullAdder_testbench
+R1
+!s110 1697065841
+!i10b 1
+!s100 mQed7eoSm@DTFG95TOW4Z0
+IlTfU`jGC>gS=Q]endnm3k2
+R2
+R3
+S1
+R0
+R4
+R5
+R6
+L0 12
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+nfull@adder_testbench
