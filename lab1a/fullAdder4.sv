@@ -14,3 +14,26 @@ module fullAdder4 (A, B, cin, sum, cout);
 	 
 endmodule
 
+
+module fullAdder4_testbench();
+
+		logic A,B,cin, sum,cout;
+		
+		fullAdder dut (A,B,cin,sum,cout);
+		
+		integer i;
+		
+		initial begin
+		
+			for(i = 0; i < 2 **9; i++) begin 
+			 {A,B,cin} = i; #10;
+			 end
+			
+
+			end
+		
+endmodule
+
+
+
+
