@@ -10,7 +10,7 @@ cModel Technology
 Z0 dC:/Users/ramanarv/Desktop/EE271/lab1a/simulation/modelsim
 vDE1_SoC
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1697070875
+Z2 !s110 1697072980
 !i10b 1
 !s100 78MeN=m<N7bFI`TIPlo>30
 Ij7c]CbKEa[hlE]=0z[C@`0
@@ -26,7 +26,7 @@ Z8 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z9 !s108 1697070875.000000
+Z9 !s108 1697072980.000000
 Z10 !s107 C:/Users/ramanarv/Desktop/EE271/lab1a/DE1_SoC.sv|
 Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ramanarv/Desktop/EE271/lab1a|C:/Users/ramanarv/Desktop/EE271/lab1a/DE1_SoC.sv|
 !i113 1
@@ -62,25 +62,25 @@ R14
 n@d@e1_@so@c_testbench
 vfullAdder
 R1
-Z15 !s110 1697070874
+R2
 !i10b 1
 !s100 V6TS1DASZa81VUTd5Gl>=3
 IPZL7CI0P`WXEQ]^5<4?M72
 R3
-Z16 !s105 fullAdder_sv_unit
+Z15 !s105 fullAdder_sv_unit
 S1
 R0
-Z17 w1697068599
-Z18 8C:/Users/ramanarv/Desktop/EE271/lab1a/fullAdder.sv
-Z19 FC:/Users/ramanarv/Desktop/EE271/lab1a/fullAdder.sv
+Z16 w1697068599
+Z17 8C:/Users/ramanarv/Desktop/EE271/lab1a/fullAdder.sv
+Z18 FC:/Users/ramanarv/Desktop/EE271/lab1a/fullAdder.sv
 L0 1
 R8
 r1
 !s85 0
 31
-Z20 !s108 1697070874.000000
-Z21 !s107 C:/Users/ramanarv/Desktop/EE271/lab1a/fullAdder.sv|
-Z22 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ramanarv/Desktop/EE271/lab1a|C:/Users/ramanarv/Desktop/EE271/lab1a/fullAdder.sv|
+R9
+Z19 !s107 C:/Users/ramanarv/Desktop/EE271/lab1a/fullAdder.sv|
+Z20 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ramanarv/Desktop/EE271/lab1a|C:/Users/ramanarv/Desktop/EE271/lab1a/fullAdder.sv|
 !i113 1
 R12
 R13
@@ -88,25 +88,25 @@ R14
 nfull@adder
 vfullAdder_testbench
 R1
-R15
+R2
 !i10b 1
 !s100 mQed7eoSm@DTFG95TOW4Z0
 I1A<M1bcL6BGBQKS7QFM313
 R3
-R16
+R15
 S1
 R0
+R16
 R17
 R18
-R19
 L0 12
 R8
 r1
 !s85 0
 31
+R9
+R19
 R20
-R21
-R22
 !i113 1
 R12
 R13

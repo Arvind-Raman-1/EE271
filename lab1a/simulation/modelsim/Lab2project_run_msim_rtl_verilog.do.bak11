@@ -5,6 +5,6 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -sv -work work +incdir+Z:/Desktop/lab1a {Z:/Desktop/lab1a/fullAdder.sv}
-vlog -sv -work work +incdir+Z:/Desktop/lab1a {Z:/Desktop/lab1a/fullAdder4.sv}
+vlog -sv -work work +incdir+C:/Users/ramanarv/Desktop/EE271/lab1a {C:/Users/ramanarv/Desktop/EE271/lab1a/fullAdder.sv}
+vlog -sv -work work +incdir+C:/Users/ramanarv/Desktop/EE271/lab1a {C:/Users/ramanarv/Desktop/EE271/lab1a/DE1_SoC.sv}
 
