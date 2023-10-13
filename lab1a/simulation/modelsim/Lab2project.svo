@@ -17,7 +17,7 @@
 // PROGRAM "Quartus Prime"
 // VERSION "Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition"
 
-// DATE "10/11/2023 18:13:33"
+// DATE "10/13/2023 13:21:35"
 
 // 
 // Device: Altera 5CSEMA5F31C6 Package FBGA896
@@ -35,11 +35,11 @@ module fullAdder4 (
 	cin,
 	sum,
 	cout);
-input 	[3:0] A;
-input 	[3:0] B;
-input 	cin;
-output 	[3:0] sum;
-output 	cout;
+input 	logic A [3:0];
+input 	logic B [3:0];
+input 	logic cin ;
+output 	logic [3:0] sum ;
+output 	logic cout ;
 
 // Design Ports Information
 // sum[0]	=>  Location: PIN_AC29,	 I/O Standard: 2.5 V,	 Current Strength: Default
