@@ -1,0 +1,12 @@
+|DiscountedStolenDetector
+U => discount.IN0
+P => discount.IN1
+P => discount.IN0
+C => discount.IN1
+C => discount.IN1
+E => stolen.IN0
+M => stolen.IN1
+discount <= discount.DB_MAX_OUTPUT_PORT_TYPE
+stolen <= stolen.DB_MAX_OUTPUT_PORT_TYPE
+
+
