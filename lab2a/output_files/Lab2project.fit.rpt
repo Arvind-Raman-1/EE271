@@ -1,5 +1,5 @@
 Fitter report for Lab2project
-Wed Oct 18 23:01:51 2023
+Fri Oct 20 01:26:15 2023
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -59,7 +59,7 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Fitter Summary                                                                ;
 +---------------------------------+---------------------------------------------+
-; Fitter Status                   ; Successful - Wed Oct 18 23:01:51 2023       ;
+; Fitter Status                   ; Successful - Fri Oct 20 01:26:15 2023       ;
 ; Quartus Prime Version           ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; Lab2project                                 ;
 ; Top-level Entity Name           ; DiscountedStolenDetector                    ;
@@ -68,7 +68,7 @@ agreement for further details.
 ; Timing Models                   ; Final                                       ;
 ; Logic utilization (in ALMs)     ; 2 / 32,070 ( < 1 % )                        ;
 ; Total registers                 ; 0                                           ;
-; Total pins                      ; 7 / 457 ( 2 % )                             ;
+; Total pins                      ; 6 / 457 ( 1 % )                             ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0 / 4,065,280 ( 0 % )                       ;
 ; Total RAM Blocks                ; 0 / 397 ( 0 % )                             ;
@@ -155,7 +155,7 @@ agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.0%      ;
+;     Processor 2            ;   0.1%      ;
 ;     Processors 3-6         ;   0.0%      ;
 +----------------------------+-------------+
 
@@ -783,8 +783,8 @@ agreement for further details.
 ; Type                ; Total [A + B]     ; From Design Partitions [A] ; From Rapid Recompile [B] ;
 +---------------------+-------------------+----------------------------+--------------------------+
 ; Placement (by node) ;                   ;                            ;                          ;
-;     -- Requested    ; 0.00 % ( 0 / 17 ) ; 0.00 % ( 0 / 17 )          ; 0.00 % ( 0 / 17 )        ;
-;     -- Achieved     ; 0.00 % ( 0 / 17 ) ; 0.00 % ( 0 / 17 )          ; 0.00 % ( 0 / 17 )        ;
+;     -- Requested    ; 0.00 % ( 0 / 15 ) ; 0.00 % ( 0 / 15 )          ; 0.00 % ( 0 / 15 )        ;
+;     -- Achieved     ; 0.00 % ( 0 / 15 ) ; 0.00 % ( 0 / 15 )          ; 0.00 % ( 0 / 15 )        ;
 ;                     ;                   ;                            ;                          ;
 ; Routing (by net)    ;                   ;                            ;                          ;
 ;     -- Requested    ; 0.00 % ( 0 / 0 )  ; 0.00 % ( 0 / 0 )           ; 0.00 % ( 0 / 0 )         ;
@@ -807,7 +807,7 @@ agreement for further details.
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 ; Partition Name                 ; Preservation Achieved ; Preservation Level Used ; Netlist Type Used ; Preservation Method ; Notes ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
-; Top                            ; 0.00 % ( 0 / 17 )     ; N/A                     ; Source File       ; N/A                 ;       ;
+; Top                            ; 0.00 % ( 0 / 15 )     ; N/A                     ; Source File       ; N/A                 ;       ;
 ; hard_block:auto_generated_inst ; 0.00 % ( 0 / 0 )      ; N/A                     ; Source File       ; N/A                 ;       ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 
@@ -847,8 +847,8 @@ The pin-out file can be found in C:/Users/ramanarv/Desktop/EE271/lab2a/output_fi
 ;     -- 7 input functions                                    ; 0                  ;       ;
 ;     -- 6 input functions                                    ; 0                  ;       ;
 ;     -- 5 input functions                                    ; 0                  ;       ;
-;     -- 4 input functions                                    ; 0                  ;       ;
-;     -- <=3 input functions                                  ; 3                  ;       ;
+;     -- 4 input functions                                    ; 1                  ;       ;
+;     -- <=3 input functions                                  ; 2                  ;       ;
 ; Combinational ALUT usage for route-throughs                 ; 0                  ;       ;
 ;                                                             ;                    ;       ;
 ; Dedicated logic registers                                   ; 0                  ;       ;
@@ -860,8 +860,8 @@ The pin-out file can be found in C:/Users/ramanarv/Desktop/EE271/lab2a/output_fi
 ;         -- Routing optimization registers                   ; 0                  ;       ;
 ;                                                             ;                    ;       ;
 ; Virtual pins                                                ; 0                  ;       ;
-; I/O pins                                                    ; 7 / 457            ; 2 %   ;
-;     -- Clock pins                                           ; 0 / 8              ; 0 %   ;
+; I/O pins                                                    ; 6 / 457            ; 1 %   ;
+;     -- Clock pins                                           ; 2 / 8              ; 25 %  ;
 ;     -- Dedicated input pins                                 ; 0 / 21             ; 0 %   ;
 ;                                                             ;                    ;       ;
 ; Hard processor system peripheral utilization                ;                    ;       ;
@@ -914,10 +914,10 @@ The pin-out file can be found in C:/Users/ramanarv/Desktop/EE271/lab2a/output_fi
 ; Hard Memory Controllers                                     ; 0 / 2              ; 0 %   ;
 ; Average interconnect usage (total/H/V)                      ; 0.0% / 0.0% / 0.0% ;       ;
 ; Peak interconnect usage (total/H/V)                         ; 0.0% / 0.0% / 0.0% ;       ;
-; Maximum fan-out                                             ; 1                  ;       ;
-; Highest non-global fan-out                                  ; 1                  ;       ;
-; Total fan-out                                               ; 14                 ;       ;
-; Average fan-out                                             ; 0.82               ;       ;
+; Maximum fan-out                                             ; 2                  ;       ;
+; Highest non-global fan-out                                  ; 2                  ;       ;
+; Total fan-out                                               ; 15                 ;       ;
+; Average fan-out                                             ; 1.00               ;       ;
 +-------------------------------------------------------------+--------------------+-------+
 
 
@@ -950,8 +950,8 @@ The pin-out file can be found in C:/Users/ramanarv/Desktop/EE271/lab2a/output_fi
 ;     -- 7 input functions                                    ; 0                   ; 0                              ;
 ;     -- 6 input functions                                    ; 0                   ; 0                              ;
 ;     -- 5 input functions                                    ; 0                   ; 0                              ;
-;     -- 4 input functions                                    ; 0                   ; 0                              ;
-;     -- <=3 input functions                                  ; 3                   ; 0                              ;
+;     -- 4 input functions                                    ; 1                   ; 0                              ;
+;     -- <=3 input functions                                  ; 2                   ; 0                              ;
 ; Combinational ALUT usage for route-throughs                 ; 0                   ; 0                              ;
 ; Memory ALUT usage                                           ; 0                   ; 0                              ;
 ;     -- 64-address deep                                      ; 0                   ; 0                              ;
@@ -967,7 +967,7 @@ The pin-out file can be found in C:/Users/ramanarv/Desktop/EE271/lab2a/output_fi
 ;                                                             ;                     ;                                ;
 ;                                                             ;                     ;                                ;
 ; Virtual pins                                                ; 0                   ; 0                              ;
-; I/O pins                                                    ; 7                   ; 0                              ;
+; I/O pins                                                    ; 6                   ; 0                              ;
 ; I/O registers                                               ; 0                   ; 0                              ;
 ; Total block memory bits                                     ; 0                   ; 0                              ;
 ; Total block memory implementation bits                      ; 0                   ; 0                              ;
@@ -979,7 +979,7 @@ The pin-out file can be found in C:/Users/ramanarv/Desktop/EE271/lab2a/output_fi
 ;     -- Registered Output Connections                        ; 0                   ; 0                              ;
 ;                                                             ;                     ;                                ;
 ; Internal Connections                                        ;                     ;                                ;
-;     -- Total Connections                                    ; 14                  ; 0                              ;
+;     -- Total Connections                                    ; 15                  ; 0                              ;
 ;     -- Registered Connections                               ; 0                   ; 0                              ;
 ;                                                             ;                     ;                                ;
 ; External Connections                                        ;                     ;                                ;
@@ -987,7 +987,7 @@ The pin-out file can be found in C:/Users/ramanarv/Desktop/EE271/lab2a/output_fi
 ;     -- hard_block:auto_generated_inst                       ; 0                   ; 0                              ;
 ;                                                             ;                     ;                                ;
 ; Partition Interface                                         ;                     ;                                ;
-;     -- Input Ports                                          ; 5                   ; 0                              ;
+;     -- Input Ports                                          ; 4                   ; 0                              ;
 ;     -- Output Ports                                         ; 2                   ; 0                              ;
 ;     -- Bidir Ports                                          ; 0                   ; 0                              ;
 ;                                                             ;                     ;                                ;
@@ -1012,11 +1012,10 @@ The pin-out file can be found in C:/Users/ramanarv/Desktop/EE271/lab2a/output_fi
 +------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+----------+--------------+--------------+-------------+---------------------------+----------------------+-----------+
 ; Name ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination ; Termination Control Block ; Location assigned by ; Slew Rate ;
 +------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+----------+--------------+--------------+-------------+---------------------------+----------------------+-----------+
-; C    ; AD26  ; 5A       ; 89           ; 16           ; 3            ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; E    ; AG30  ; 5A       ; 89           ; 16           ; 54           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; M    ; AC27  ; 5A       ; 89           ; 16           ; 20           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; P    ; AH30  ; 5A       ; 89           ; 16           ; 37           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; U    ; AF29  ; 5A       ; 89           ; 15           ; 37           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; C    ; AB27  ; 5B       ; 89           ; 23           ; 20           ; 2                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; M    ; AD29  ; 5B       ; 89           ; 23           ; 54           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; P    ; AA26  ; 5B       ; 89           ; 23           ; 3            ; 2                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; U    ; Y27   ; 5B       ; 89           ; 25           ; 20           ; 2                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
 +------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+----------+--------------+--------------+-------------+---------------------------+----------------------+-----------+
 
 
@@ -1025,8 +1024,8 @@ The pin-out file can be found in C:/Users/ramanarv/Desktop/EE271/lab2a/output_fi
 +----------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+---------------------+-----------------------------+----------------------+----------------------+---------------------+
 ; Name     ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Output Register ; Output Enable Register ; Slew Rate ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination                       ; Termination Control Block ; Output Buffer Pre-emphasis ; Voltage Output Differential ; Output Buffer Delay ; Output Buffer Delay Control ; Location assigned by ; Output Enable Source ; Output Enable Group ;
 +----------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+---------------------+-----------------------------+----------------------+----------------------+---------------------+
-; discount ; AF30  ; 5A       ; 89           ; 15           ; 54           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; Fitter               ; -                    ; -                   ;
-; stolen   ; V23   ; 5A       ; 89           ; 15           ; 3            ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; Fitter               ; -                    ; -                   ;
+; discount ; AA30  ; 5B       ; 89           ; 21           ; 20           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; Fitter               ; -                    ; -                   ;
+; stolen   ; AE29  ; 5B       ; 89           ; 23           ; 37           ; no              ; no                     ; 1         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; 0                   ; Off                         ; Fitter               ; -                    ; -                   ;
 +----------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+---------------------+-----------------------------+----------------------+----------------------+---------------------+
 
 
@@ -1040,8 +1039,8 @@ The pin-out file can be found in C:/Users/ramanarv/Desktop/EE271/lab2a/output_fi
 ; 3A       ; 0 / 32 ( 0 % )  ; 2.5V          ; --           ; 2.5V          ;
 ; 3B       ; 0 / 48 ( 0 % )  ; 2.5V          ; --           ; 2.5V          ;
 ; 4A       ; 0 / 80 ( 0 % )  ; 2.5V          ; --           ; 2.5V          ;
-; 5A       ; 7 / 32 ( 22 % ) ; 2.5V          ; --           ; 2.5V          ;
-; 5B       ; 0 / 16 ( 0 % )  ; 2.5V          ; --           ; 2.5V          ;
+; 5A       ; 0 / 32 ( 0 % )  ; 2.5V          ; --           ; 2.5V          ;
+; 5B       ; 6 / 16 ( 38 % ) ; 2.5V          ; --           ; 2.5V          ;
 ; 6B       ; 0 / 44 ( 0 % )  ; 2.5V          ; --           ; 2.5V          ;
 ; 6A       ; 0 / 56 ( 0 % )  ; 2.5V          ; --           ; 2.5V          ;
 ; 7A       ; 0 / 19 ( 0 % )  ; 2.5V          ; --           ; 2.5V          ;
@@ -1110,11 +1109,11 @@ The pin-out file can be found in C:/Users/ramanarv/Desktop/EE271/lab2a/output_fi
 ; AA23     ;            ; --             ; VCCPGM                          ; power  ;              ; 1.8V/2.5V/3.0V/3.3V ; --           ;                 ; --       ; --           ;
 ; AA24     ; 228        ; 5A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; AA25     ; 224        ; 5A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
-; AA26     ; 252        ; 5B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
+; AA26     ; 252        ; 5B             ; P                               ; input  ; 2.5 V        ;                     ; Row I/O      ; N               ; no       ; Off          ;
 ; AA27     ;            ; 5B             ; VCCIO5B                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; AA28     ; 251        ; 5B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; AA29     ;            ; 5B             ; VREFB5BN0                       ; power  ;              ;                     ; --           ;                 ; --       ; --           ;
-; AA30     ; 250        ; 5B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
+; AA30     ; 250        ; 5B             ; discount                        ; output ; 2.5 V        ;                     ; Row I/O      ; N               ; no       ; Off          ;
 ; AB1      ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AB2      ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AB3      ;            ;                ; DNU                             ;        ;              ;                     ; --           ;                 ; --       ; --           ;
@@ -1141,7 +1140,7 @@ The pin-out file can be found in C:/Users/ramanarv/Desktop/EE271/lab2a/output_fi
 ; AB24     ;            ; 5A             ; VCCIO5A                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; AB25     ; 230        ; 5A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; AB26     ; 226        ; 5A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
-; AB27     ; 254        ; 5B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
+; AB27     ; 254        ; 5B             ; C                               ; input  ; 2.5 V        ;                     ; Row I/O      ; N               ; no       ; Off          ;
 ; AB28     ; 249        ; 5B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; AB29     ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AB30     ; 248        ; 5B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
@@ -1171,7 +1170,7 @@ The pin-out file can be found in C:/Users/ramanarv/Desktop/EE271/lab2a/output_fi
 ; AC24     ;            ; 5A             ; VREFB5AN0                       ; power  ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AC25     ; 215        ; 5A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; AC26     ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
-; AC27     ; 242        ; 5A             ; M                               ; input  ; 2.5 V        ;                     ; Row I/O      ; N               ; no       ; Off          ;
+; AC27     ; 242        ; 5A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; AC28     ; 245        ; 5B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; AC29     ; 247        ; 5B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; AC30     ; 259        ; 5B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
@@ -1200,10 +1199,10 @@ The pin-out file can be found in C:/Users/ramanarv/Desktop/EE271/lab2a/output_fi
 ; AD23     ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AD24     ; 211        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AD25     ; 213        ; 5A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
-; AD26     ; 240        ; 5A             ; C                               ; input  ; 2.5 V        ;                     ; Row I/O      ; N               ; no       ; Off          ;
+; AD26     ; 240        ; 5A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; AD27     ; 222        ; 5A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; AD28     ;            ; 5A             ; VCCIO5A                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
-; AD29     ; 255        ; 5B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
+; AD29     ; 255        ; 5B             ; M                               ; input  ; 2.5 V        ;                     ; Row I/O      ; N               ; no       ; Off          ;
 ; AD30     ; 257        ; 5B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; AE1      ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AE2      ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
@@ -1233,7 +1232,7 @@ The pin-out file can be found in C:/Users/ramanarv/Desktop/EE271/lab2a/output_fi
 ; AE26     ; 220        ; 5A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; AE27     ; 229        ; 5A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; AE28     ; 231        ; 5A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
-; AE29     ; 253        ; 5B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
+; AE29     ; 253        ; 5B             ; stolen                          ; output ; 2.5 V        ;                     ; Row I/O      ; N               ; no       ; Off          ;
 ; AE30     ;            ; 5B             ; VCCIO5B                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; AF1      ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AF2      ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
@@ -1263,8 +1262,8 @@ The pin-out file can be found in C:/Users/ramanarv/Desktop/EE271/lab2a/output_fi
 ; AF26     ; 204        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AF27     ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AF28     ; 235        ; 5A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
-; AF29     ; 237        ; 5A             ; U                               ; input  ; 2.5 V        ;                     ; Row I/O      ; N               ; no       ; Off          ;
-; AF30     ; 239        ; 5A             ; discount                        ; output ; 2.5 V        ;                     ; Row I/O      ; N               ; no       ; Off          ;
+; AF29     ; 237        ; 5A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
+; AF30     ; 239        ; 5A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; AG1      ; 71         ; 3A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AG2      ; 83         ; 3A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AG3      ; 63         ; 3A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
@@ -1294,7 +1293,7 @@ The pin-out file can be found in C:/Users/ramanarv/Desktop/EE271/lab2a/output_fi
 ; AG27     ; 212        ; 5A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; AG28     ; 233        ; 5A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; AG29     ;            ; 5A             ; VCCIO5A                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
-; AG30     ; 243        ; 5A             ; E                               ; input  ; 2.5 V        ;                     ; Row I/O      ; N               ; no       ; Off          ;
+; AG30     ; 243        ; 5A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; AH1      ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AH2      ; 69         ; 3A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AH3      ; 81         ; 3A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
@@ -1324,7 +1323,7 @@ The pin-out file can be found in C:/Users/ramanarv/Desktop/EE271/lab2a/output_fi
 ; AH27     ; 201        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AH28     ; 214        ; 5A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; AH29     ; 218        ; 5A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
-; AH30     ; 241        ; 5A             ; P                               ; input  ; 2.5 V        ;                     ; Row I/O      ; N               ; no       ; Off          ;
+; AH30     ; 241        ; 5A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; AJ1      ; 79         ; 3A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AJ2      ; 77         ; 3A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AJ3      ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
@@ -1885,7 +1884,7 @@ The pin-out file can be found in C:/Users/ramanarv/Desktop/EE271/lab2a/output_fi
 ; V20      ; 292        ; 6B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; V21      ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; V22      ;            ; 5A             ; VCCPD5A                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
-; V23      ; 236        ; 5A             ; stolen                          ; output ; 2.5 V        ;                     ; Row I/O      ; N               ; no       ; Off          ;
+; V23      ; 236        ; 5A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; V24      ;            ; 5A             ; VCCPD5A                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; V25      ; 246        ; 5B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; V26      ;            ; 6B             ; VCCIO6B_HPS                     ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
@@ -1949,7 +1948,7 @@ The pin-out file can be found in C:/Users/ramanarv/Desktop/EE271/lab2a/output_fi
 ; Y24      ; 234        ; 5A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; Y25      ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; Y26      ; 256        ; 5B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
-; Y27      ; 258        ; 5B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
+; Y27      ; 258        ; 5B             ; U                               ; input  ; 2.5 V        ;                     ; Row I/O      ; N               ; no       ; Off          ;
 ; Y28      ; 269        ; 6B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; Y29      ; 263        ; 6B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; Y30      ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
@@ -1969,7 +1968,6 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ; P        ; Missing location assignment          ;
 ; U        ; Missing location assignment          ;
 ; C        ; Missing location assignment          ;
-; E        ; Missing location assignment          ;
 ; M        ; Missing location assignment          ;
 +----------+--------------------------------------+
 
@@ -1979,7 +1977,7 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +----------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+---------------------------+--------------------------+--------------+
 ; Compilation Hierarchy Node ; ALMs needed [=A-B+C] ; [A] ALMs used in final placement ; [B] Estimate of ALMs recoverable by dense packing ; [C] Estimate of ALMs unavailable ; ALMs used for memory ; Combinational ALUTs ; Dedicated Logic Registers ; I/O Registers ; Block Memory Bits ; M10Ks ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name       ; Entity Name              ; Library Name ;
 +----------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+---------------------------+--------------------------+--------------+
-; |DiscountedStolenDetector  ; 1.5 (1.5)            ; 1.5 (1.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 3 (3)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 7    ; 0            ; |DiscountedStolenDetector ; DiscountedStolenDetector ; work         ;
+; |DiscountedStolenDetector  ; 1.5 (1.5)            ; 1.5 (1.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 3 (3)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 6    ; 0            ; |DiscountedStolenDetector ; DiscountedStolenDetector ; work         ;
 +----------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+---------------------------+--------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -1993,8 +1991,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; stolen   ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
 ; P        ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; U        ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; C        ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; E        ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; C        ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; M        ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 +----------+----------+----+------+------+----+------+-------+--------+------------------------+--------------------------+
 
@@ -2006,12 +2003,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------+-------------------+---------+
 ; P                   ;                   ;         ;
 ;      - discount~0   ; 1                 ; 0       ;
+;      - stolen~0     ; 1                 ; 0       ;
 ; U                   ;                   ;         ;
 ;      - discount~0   ; 1                 ; 0       ;
-; C                   ;                   ;         ;
-;      - discount~0   ; 1                 ; 0       ;
-; E                   ;                   ;         ;
 ;      - stolen~0     ; 1                 ; 0       ;
+; C                   ;                   ;         ;
+;      - discount~0   ; 0                 ; 0       ;
+;      - stolen~0     ; 0                 ; 0       ;
 ; M                   ;                   ;         ;
 ;      - stolen~0     ; 1                 ; 0       ;
 +---------------------+-------------------+---------+
@@ -2022,10 +2020,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------------------------+-----------------------+
 ; Routing Resource Type                       ; Usage                 ;
 +---------------------------------------------+-----------------------+
-; Block interconnects                         ; 7 / 289,320 ( < 1 % ) ;
+; Block interconnects                         ; 6 / 289,320 ( < 1 % ) ;
 ; C12 interconnects                           ; 0 / 13,420 ( 0 % )    ;
-; C2 interconnects                            ; 3 / 119,108 ( < 1 % ) ;
-; C4 interconnects                            ; 0 / 56,300 ( 0 % )    ;
+; C2 interconnects                            ; 1 / 119,108 ( < 1 % ) ;
+; C4 interconnects                            ; 1 / 56,300 ( < 1 % )  ;
 ; DQS bus muxes                               ; 0 / 25 ( 0 % )        ;
 ; DQS-18 I/O buses                            ; 0 / 25 ( 0 % )        ;
 ; DQS-9 I/O buses                             ; 0 / 25 ( 0 % )        ;
@@ -2087,10 +2085,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Horizontal periphery clocks                 ; 0 / 72 ( 0 % )        ;
 ; Local interconnects                         ; 0 / 84,580 ( 0 % )    ;
 ; Quadrant clocks                             ; 0 / 66 ( 0 % )        ;
-; R14 interconnects                           ; 1 / 12,676 ( < 1 % )  ;
+; R14 interconnects                           ; 0 / 12,676 ( 0 % )    ;
 ; R14/C12 interconnect drivers                ; 0 / 20,720 ( 0 % )    ;
-; R3 interconnects                            ; 0 / 130,992 ( 0 % )   ;
-; R6 interconnects                            ; 3 / 266,960 ( < 1 % ) ;
+; R3 interconnects                            ; 2 / 130,992 ( < 1 % ) ;
+; R6 interconnects                            ; 2 / 266,960 ( < 1 % ) ;
 ; Spine clocks                                ; 0 / 360 ( 0 % )       ;
 ; Wire stub REs                               ; 0 / 15,858 ( 0 % )    ;
 +---------------------------------------------+-----------------------+
@@ -2151,16 +2149,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
 ; Pin/Rules          ; IO_000001    ; IO_000002    ; IO_000003    ; IO_000004    ; IO_000005    ; IO_000006 ; IO_000007    ; IO_000008    ; IO_000009 ; IO_000010 ; IO_000011    ; IO_000012    ; IO_000013    ; IO_000014    ; IO_000015    ; IO_000018    ; IO_000019    ; IO_000020    ; IO_000021    ; IO_000022    ; IO_000023    ; IO_000024    ; IO_000026    ; IO_000027    ; IO_000045    ; IO_000046    ; IO_000047    ; IO_000034    ;
 +--------------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
-; Total Pass         ; 0            ; 0            ; 0            ; 0            ; 0            ; 7         ; 0            ; 0            ; 7         ; 7         ; 0            ; 2            ; 0            ; 0            ; 0            ; 0            ; 2            ; 0            ; 0            ; 0            ; 0            ; 2            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
+; Total Pass         ; 0            ; 0            ; 0            ; 0            ; 0            ; 6         ; 0            ; 0            ; 6         ; 6         ; 0            ; 2            ; 0            ; 0            ; 0            ; 0            ; 2            ; 0            ; 0            ; 0            ; 0            ; 2            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
 ; Total Unchecked    ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
-; Total Inapplicable ; 7            ; 7            ; 7            ; 7            ; 7            ; 0         ; 7            ; 7            ; 0         ; 0         ; 7            ; 5            ; 7            ; 7            ; 7            ; 7            ; 5            ; 7            ; 7            ; 7            ; 7            ; 5            ; 7            ; 7            ; 7            ; 7            ; 7            ; 7            ;
+; Total Inapplicable ; 6            ; 6            ; 6            ; 6            ; 6            ; 0         ; 6            ; 6            ; 0         ; 0         ; 6            ; 4            ; 6            ; 6            ; 6            ; 6            ; 4            ; 6            ; 6            ; 6            ; 6            ; 4            ; 6            ; 6            ; 6            ; 6            ; 6            ; 6            ;
 ; Total Fail         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
 ; discount           ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; stolen             ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; P                  ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; U                  ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; C                  ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; E                  ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; M                  ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 +--------------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
 
@@ -2219,7 +2216,7 @@ Info (21077): High junction temperature is 85 degrees C
 Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
 Warning (292013): Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
 Warning (15714): Some pins have incomplete I/O assignments. Refer to the I/O Assignment Warnings report for details
-Critical Warning (169085): No exact pin location assignment(s) for 7 pins of 7 total pins. For the list of pins please refer to the I/O Assignment Warnings table in the fitter report.
+Critical Warning (169085): No exact pin location assignment(s) for 6 pins of 6 total pins. For the list of pins please refer to the I/O Assignment Warnings table in the fitter report.
 Info (184020): Starting Fitter periphery placement operations
 Info (184021): Fitter periphery placement operations ending: elapsed time is 00:00:00
 Info (176233): Starting register packing
@@ -2477,18 +2474,18 @@ Info (332154): The derive_clock_uncertainty command did not apply clock uncertai
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
 Info (170189): Fitter placement preparation operations beginning
 Info (14951): The Fitter is using Advanced Physical Optimization.
-Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:33
+Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:04
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
 Info (170192): Fitter placement operations ending: elapsed time is 00:00:01
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
-    Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X78_Y11 to location X89_Y22
+    Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X78_Y23 to location X89_Y34
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.24 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
+Info (11888): Total time spent on timing analysis during the Fitter is 0.26 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
@@ -2497,10 +2494,10 @@ Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:02
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Info (144001): Generated suppressed messages file C:/Users/ramanarv/Desktop/EE271/lab2a/output_files/Lab2project.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 249 warnings
-    Info: Peak virtual memory: 6740 megabytes
-    Info: Processing ended: Wed Oct 18 23:01:52 2023
-    Info: Elapsed time: 00:01:03
-    Info: Total CPU time (on all processors): 00:04:54
+    Info: Peak virtual memory: 6749 megabytes
+    Info: Processing ended: Fri Oct 20 01:26:15 2023
+    Info: Elapsed time: 00:00:37
+    Info: Total CPU time (on all processors): 00:01:40
 
 
 +----------------------------+

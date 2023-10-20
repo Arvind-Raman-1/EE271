@@ -10,15 +10,15 @@ cModel Technology
 Z0 dC:/Users/ramanarv/Desktop/EE271/lab2a/simulation/modelsim
 vDiscountedStolenDetector
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1697695360
+Z2 !s110 1697789409
 !i10b 1
-!s100 7:A?_LakE1Uz[>3K7eKU:1
-IFR8XK5i?Z0X1C[NWRzDMl2
+!s100 2^e_`OWgQEeQWDX3H^e1g3
+Ie6IANf?SVPoo^L@=X<RUM3
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 Z4 !s105 DiscountedStolenDetector_sv_unit
 S1
 R0
-Z5 w1697695066
+Z5 w1697789207
 Z6 8C:/Users/ramanarv/Desktop/EE271/lab2a/DiscountedStolenDetector.sv
 Z7 FC:/Users/ramanarv/Desktop/EE271/lab2a/DiscountedStolenDetector.sv
 L0 1
@@ -26,7 +26,7 @@ Z8 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z9 !s108 1697695360.000000
+Z9 !s108 1697789409.000000
 Z10 !s107 C:/Users/ramanarv/Desktop/EE271/lab2a/DiscountedStolenDetector.sv|
 Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ramanarv/Desktop/EE271/lab2a|C:/Users/ramanarv/Desktop/EE271/lab2a/DiscountedStolenDetector.sv|
 !i113 1
@@ -38,8 +38,8 @@ vDiscountedStolenDetector_testbench
 R1
 R2
 !i10b 1
-!s100 T>:6Y:M;h9^j=n`dCjmXm3
-IkDJGHKjRDbW4O?L>E_cCE0
+!s100 aAmI`XF>O_lMl8NL>WcIC1
+ITU_4;[Ym2280maN3n^`Wa3
 R3
 R4
 S1
@@ -47,7 +47,7 @@ R0
 R5
 R6
 R7
-L0 16
+L0 15
 R8
 r1
 !s85 0

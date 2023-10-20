@@ -12,43 +12,55 @@
 # 
 # vlog -sv -work work +incdir+C:/Users/ramanarv/Desktop/EE271/lab2a {C:/Users/ramanarv/Desktop/EE271/lab2a/DiscountedStolenDetector.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 23:02:40 on Oct 18,2023
+# Start time: 01:10:09 on Oct 20,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ramanarv/Desktop/EE271/lab2a" C:/Users/ramanarv/Desktop/EE271/lab2a/DiscountedStolenDetector.sv 
 # -- Compiling module DiscountedStolenDetector
 # -- Compiling module DiscountedStolenDetector_testbench
 # 
 # Top level modules:
 # 	DiscountedStolenDetector_testbench
-# End time: 23:02:40 on Oct 18,2023, Elapsed time: 0:00:00
+# End time: 01:10:09 on Oct 20,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-vsim work.DiscountedStolenDetector
-# vsim work.DiscountedStolenDetector 
-# Start time: 23:02:45 on Oct 18,2023
-# Loading sv_std.std
-# Loading work.DiscountedStolenDetector
 vsim work.DiscountedStolenDetector_testbench
-# End time: 23:02:58 on Oct 18,2023, Elapsed time: 0:00:13
-# Errors: 0, Warnings: 0
 # vsim work.DiscountedStolenDetector_testbench 
-# Start time: 23:02:58 on Oct 18,2023
+# Start time: 01:10:12 on Oct 20,2023
 # Loading sv_std.std
 # Loading work.DiscountedStolenDetector_testbench
 # Loading work.DiscountedStolenDetector
-vsim work.DiscountedStolenDetector
-# End time: 23:03:38 on Oct 18,2023, Elapsed time: 0:00:40
-# Errors: 0, Warnings: 0
-# vsim work.DiscountedStolenDetector 
-# Start time: 23:03:38 on Oct 18,2023
-# Loading sv_std.std
-# Loading work.DiscountedStolenDetector
-vsim work.DiscountedStolenDetector_testbench
-# End time: 23:03:57 on Oct 18,2023, Elapsed time: 0:00:19
-# Errors: 0, Warnings: 0
-# vsim work.DiscountedStolenDetector_testbench 
-# Start time: 23:03:57 on Oct 18,2023
-# Loading sv_std.std
-# Loading work.DiscountedStolenDetector_testbench
-# Loading work.DiscountedStolenDetector
-# End time: 23:04:42 on Oct 18,2023, Elapsed time: 0:00:45
-# Errors: 0, Warnings: 0
+add wave -position end  sim:/DiscountedStolenDetector_testbench/U
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ramanarv  Hostname: ENGR-ECEGPU-3  ProcessID: 12284
+#           Attempting to use alternate WLF file "./wlftvfay5v".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftvfay5v
+add wave -position end  sim:/DiscountedStolenDetector_testbench/P
+add wave -position end  sim:/DiscountedStolenDetector_testbench/C
+add wave -position end  sim:/DiscountedStolenDetector_testbench/M
+add wave -position end  sim:/DiscountedStolenDetector_testbench/discount
+add wave -position end  sim:/DiscountedStolenDetector_testbench/stolen
+run -all
+# U P C M | Discount Stolen
+# ------------------------
+# 0 0 0 0  |   0       1
+# 0 0 0 1  |   0       0
+# 0 0 1 0  |   0       0
+# 0 0 1 1  |   0       0
+# 0 1 0 0  |   1       1
+# 0 1 0 1  |   1       0
+# 0 1 1 0  |   1       0
+# 0 1 1 1  |   1       0
+# 1 0 0 0  |   0       1
+# 1 0 0 1  |   0       0
+# 1 0 1 0  |   1       1
+# 1 0 1 1  |   1       0
+# 1 1 0 0  |   1       0
+# 1 1 0 1  |   1       0
+# 1 1 1 0  |   1       1
+# 1 1 1 1  |   1       0
+# ** Note: $finish    : C:/Users/ramanarv/Desktop/EE271/lab2a/DiscountedStolenDetector.sv(41)
+#    Time: 160 ps  Iteration: 0  Instance: /DiscountedStolenDetector_testbench
+# 1
+# Break in Module DiscountedStolenDetector_testbench at C:/Users/ramanarv/Desktop/EE271/lab2a/DiscountedStolenDetector.sv line 41
+# End time: 01:14:52 on Oct 20,2023, Elapsed time: 0:04:40
+# Errors: 0, Warnings: 2
