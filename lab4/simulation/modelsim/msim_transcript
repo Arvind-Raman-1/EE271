@@ -1,0 +1,51 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do Lab2project_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/ramanarv/Desktop/EE271/lab4 {C:/Users/ramanarv/Desktop/EE271/lab4/victory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:59:27 on Nov 17,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ramanarv/Desktop/EE271/lab4" C:/Users/ramanarv/Desktop/EE271/lab4/victory.sv 
+# -- Compiling module victory
+# -- Compiling module victory_testbench
+# 
+# Top level modules:
+# 	victory_testbench
+# End time: 17:59:27 on Nov 17,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.victory_testbench
+# vsim work.victory_testbench 
+# Start time: 17:59:33 on Nov 17,2023
+# Loading sv_std.std
+# Loading work.victory_testbench
+# Loading work.victory
+vsim work.victory_testbench
+# End time: 18:00:02 on Nov 17,2023, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 0
+# vsim work.victory_testbench 
+# Start time: 18:00:02 on Nov 17,2023
+# Loading sv_std.std
+# Loading work.victory_testbench
+# Loading work.victory
+add wave -position insertpoint sim:/victory_testbench/#INITIAL#65/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ramanarv  Hostname: ENGR-ECEGPU-3  ProcessID: 12284
+#           Attempting to use alternate WLF file "./wlft79sh1y".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft79sh1y
+add wave -position insertpoint sim:/victory_testbench/#INITIAL#71/*
+run -all
+# ** Note: $stop    : C:/Users/ramanarv/Desktop/EE271/lab4/victory.sv(85)
+#    Time: 950 ps  Iteration: 1  Instance: /victory_testbench
+# Break in Module victory_testbench at C:/Users/ramanarv/Desktop/EE271/lab4/victory.sv line 85
+# End time: 18:02:22 on Nov 17,2023, Elapsed time: 0:02:20
+# Errors: 0, Warnings: 2

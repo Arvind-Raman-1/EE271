@@ -1,0 +1,41 @@
+module DE1_SoC_disp (HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, KEY, LEDR, SW);
+	
+	output logic [6:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5;
+	output logic [9:0] LEDR;
+	input logic [3:0] KEY;
+	input logic [9:0] SW;
+	
+	logic [3:0] bcd ;
+	assign bcd = SW[9:6];
+	
+	seg7 FA (.bcd(bcd), .leds(HEX0));
+	
+endmodule
+
+
+module DE1_SoC_disp_testbench();
+
+	logic [6:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5;
+	logic [9:0] LEDR;
+	logic [3:0] KEY;
+	logic [9:0] SW;
+	
+	
+	DE1_SoC_disp dut (.HEX0, .HEX1, .HEX2, .HEX3, .HEX4, .HEX5, .KEY, .LEDR, .SW);
+	
+	initial begin
+	
+	SW[9:6] = 4'b0000; #10;
+	SW[9:6] = 4'b0001; #10;
+	SW[9:6] = 4'b0010; #10;
+	SW[9:6] = 4'b0011; #10;
+	SW[9:6] = 4'b0100; #10;
+	SW[9:6] = 4'b0101; #10;
+	SW[9:6] = 4'b0110; #10;
+	SW[9:6] = 4'b0111; #10;
+	SW[9:6] = 4'b1000; #10;
+	SW[9:6] = 4'b1001; #10;
+	
+	end
+
+endmodule 

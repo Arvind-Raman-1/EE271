@@ -1,0 +1,47 @@
+module DiscountedStolenDetector (U,P,C,E,M,discount,stolen);
+	 input logic U; 
+    input logic P;  
+    input logic C;  
+    input logic E;
+	 input logic M;
+    output logic discount
+    output logic stolen
+	
+	
+	 assign discount = (C & ~P) | (U & ~C & ~P)
+	 assign stolen = (E& ~M) 
+	 
+end module 
+
+module DiscountedStolenDetector_testbench();
+
+    logic U, P, C, E, M;
+    logic discount, stolen;
+
+    DiscountedStolenDetector dut (
+        .U(U),
+        .P(P),
+        .C(C),
+        .E(E),
+        .M(M),
+        .discount(discount),
+        .stolen(stolen)
+    );
+
+    integer i;
+
+    initial begin
+        $display("U P C E M | Discount Stolen");
+        $display("---------------------------");
+
+        for (i = 0; i < 2**5; i = i + 1) begin
+            {U, P, C, E, M} = i;
+            #10;
+            $display("%b %b %b %b %b  |    %b       %b", U, P, C, E, M, discount, stolen);
+        end
+
+        $finish;
+    end
+
+endmodule
+
