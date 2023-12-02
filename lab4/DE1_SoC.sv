@@ -31,8 +31,8 @@ module DE1_SoC (CLOCK_50, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, KEY, LEDR, SW);
     meta m2 (.clk(clk), .d1(KEY[3]), .q2(Ltemp), .reset(reset)); // Left input synchronization
 
     // Instantiate userInput modules for left and right inputs
-    userInput right (.clk(clk), .in(Rtemp), .out(R), .reset(reset));
-    userInput left (.clk(clk), .in(Ltemp), .out(L), .reset(reset));
+	 Comparator (
+	 
 
     // Instantiate normalLight and centerLight modules for game logic
     normalLight light0 (.clk(clk), .reset(reset), .L(L), .R(R), .NR(l1), .NL(1'b0), .lightOn(l0));
